@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('style\font\Consolas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Consolas', monospace; /* Adicionei monospace como fallback */
+    background-color: rgb(214, 214, 214);
+    margin: 0; /* Remove a margem padrão */
+    padding: 10px; /* Remove o padding padrão */
+}
+
+mark {
+    background-color: rgb(168, 194, 167);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
